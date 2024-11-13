@@ -6,7 +6,7 @@ categories: [mensagem, codigo, analise]
 image: "homenEnxada.png"
 ---
 
-Este é um indice do que vem por aqui.
+Este é um índice do que vem por aqui.
 
 ```{r}
 x <- seq(-2 * pi, 2* pi, 0.1)

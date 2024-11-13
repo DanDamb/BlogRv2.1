@@ -56,9 +56,3 @@ $$  (∀x. R(x,x)) → (∀x∃y. R(x,y)) $$
 
 [Analise ecologica](https://analises-ecologicas.com/): livro Análises Ecológicas no R.
 [Analise ambiental](https://lhmet.github.io/adar-ebook/): Análise de Dados Ambientais.
-
-```{r}
-x <- seq(-2 * pi, 2* pi, 0.1)
-y <- log(x * x) * sin(x)
-plot(x, y, "l", col = "red")
-```
