@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="DamDan">
+<meta name="dcterms.date" content="2024-11-13">
 
-<title>Blog – L’homme à la houe</title>
+<title>AIA dialética – L’homme à la houe</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">L’homme à la houe</span>
     </a>
   </div>
@@ -149,7 +91,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -172,194 +114,73 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Blog</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">AIA dialética</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">AIA</div>
+                <div class="quarto-category">dialética</div>
+                <div class="quarto-category">licenciamento ambiental</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>DamDan </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 13, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="AIA">AIA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="analise">analise <span class="quarto-category-count">(2)</span></div><div class="category" data-category="codigo">codigo <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dialética">dialética <span class="quarto-category-count">(1)</span></div><div class="category" data-category="licenciamento ambiental">licenciamento ambiental <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mensagem">mensagem <span class="quarto-category-count">(2)</span></div><div class="category" data-category="metacategoricas">metacategoricas <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="a-origem" class="level1">
+<h1>A origem</h1>
+<p>A Avaliação de Impactos Ambientais (AIA) é dialética desde sua origem na política nacional de meio ambiente do Brasil. O caráter dialético da AIA está tanto no arcabouço legal quanto na sua materialização administrativa e nas soluções jurídicas dos impasses que surgem das contradições e lacunas do ordenamento ambiental no Brasil.</p>
+<section id="os-sugeitos" class="level2">
+<h2 class="anchored" data-anchor-id="os-sugeitos">Os sugeitos</h2>
+<p>A AIA é usualmente chamada de dentro do processo de licenciamento ambiental, no aberto confronto de interesses, sejam eles particulares ou coletivos, mas sempre no embate de ao menos dois sujeitos de direito. O direito ao meio ambiente ecologicamente equilibrado (Art. 225 da CF) e o direito ao livre exercício de qualquer atividade econômica, independentemente de autorização de órgãos públicos (Art. 170 da CF), já trazem à cena o embate, explícito na resalva dada pelo inciso VI do mesmo artigo: “defesa do meio ambiente, inclusive mediante tratamento diferenciado conforme o impacto ambiental dos produtos e serviços e de seus processos de elaboração e prestação”.</p>
+</section>
+<section id="os-princípios" class="level2">
+<h2 class="anchored" data-anchor-id="os-princípios">Os princípios</h2>
+<p>O debate e o confronto de idéias entre interlocutores, comprometidos com a busca da verdade, seria o caminho mais racional para a compreensão<a href="https://pt.wikipedia.org/wiki/Dial%C3%A9tica#CITEREFFoulqui%C3%A91978">1</a>. Platão considera que apenas através do diálogo o filósofo deve procurar atingir o verdadeiro conhecimento, partindo do mundo sensível e chegando ao mundo das ideias<a href="https://pt.wikipedia.org/wiki/Dial%C3%A9tica#CITEREFFoulqui%C3%A91978">2</a>. A tradução literal de dialética significa “caminho entre as ideias”.<a href="https://pt.wikipedia.org/wiki/Dial%C3%A9tica#CITEREFKonder1987">nota</a>.</p>
+</section>
+<section id="o-conflito" class="level2">
+<h2 class="anchored" data-anchor-id="o-conflito">O conflito</h2>
+<p>Contudo, a premissa de que os interlocutores devem estar comprometidos com a busca pela verdade não é garantida no processo de licenciamento ambiental. De fato, a estrutura legal e jurídica, parece garantir a necessidade de antagonismo de interesses para que se invoque a AIA como ferramenta para solucionar o conflito.</p>
+</section>
+<section id="as-consequências" class="level2">
+<h2 class="anchored" data-anchor-id="as-consequências">As consequências</h2>
+<p>… ### … ### … ### … # Referências:</p>
+<p><a href="http://www.saspinski.com/filosofia/logicaDialetica.pdf">Lógica dialética de Spinoza a Hegel</a>: artigo em formato pdf, Claudio Saspinski. Acessado em 13/11/2024. <a href="https://www.marxists.org/portugues/marx/1882/dialetica/index.htm">A Dialética da Natureza</a>: livro hipertexto, Friedrich Engels 1882. Acessado em 13/11/2024. <a href="https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm">Constituição - Planalto</a>: Constituição da República Federativa do Brasil de 1988. Acessado em 13/11/2024. <a href="https://livrepensamento.com/2013/10/21/o-metodo-dialetico-materialista/">O método dialético materialista</a>: artigo hipertexto, Maurício. Acessado em 13/11/2024. <a href="https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Dialectic">Encyclopædia Britannica/Dialectic</a>: artigo hipertexto, 1911 Encyclopædia Britannica. Acessado em 13/11/2024. <a href="https://plato.stanford.edu/entries/hegel-dialectics/">Hegel’s Dialectics</a>: artigo hipertexto, Stanford Encyclopedia of Philosophy. Acessado em 13/11/2024.</p>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="metacategoricas" data-listing-date-sort="1731466800000" data-listing-file-modified-sort="1731475993033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/welcome/thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Plantando batatas</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('metacategoricas'); return false;">
-metacategoricas
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/welcome/index.html" class="no-external">Escrever aqui é plantar batatas, e para honrar quem planta na terra.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Nov 13, 2024
-</div>
-<div class="listing-author">
-DamDan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="mensagem,codigo,analise" data-listing-date-sort="1731466800000" data-listing-file-modified-sort="1731476486918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
-<div class="thumbnail">
-<p><a href="./posts/post-with-code/index.html" class="no-external"></a></p><a href="./posts/post-with-code/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/post-with-code/homenEnxada.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/post-with-code/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/index.html" class="no-external">Postagem com significado</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/post-with-code/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('mensagem'); return false;">
-mensagem
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('codigo'); return false;">
-codigo
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analise'); return false;">
-analise
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/post-with-code/index.html" class="no-external">Este é um índice do que vem por aqui.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html" class="no-external">
-<div class="listing-date">
-Nov 13, 2024
-</div>
-<div class="listing-author">
-DamDan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="AIA,dialética,licenciamento ambiental" data-listing-date-sort="1731466800000" data-listing-file-modified-sort="1731526912142" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="347">
-<div class="thumbnail">
-<p><a href="./posts/dialetica-da-aia/index.html" class="no-external"></a></p><a href="./posts/dialetica-da-aia/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/dialetica-da-aia/osLenhadoresJPM.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/dialetica-da-aia/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/dialetica-da-aia/index.html" class="no-external">AIA dialética</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/dialetica-da-aia/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('AIA'); return false;">
-AIA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('dialética'); return false;">
-dialética
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('licenciamento ambiental'); return false;">
-licenciamento ambiental
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/dialetica-da-aia/index.html" class="no-external">A Avaliação de Impactos Ambientais (AIA) é dialética desde sua origem na política nacional de meio ambiente do Brasil. O caráter dialético da AIA está tanto no arcabouço…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/dialetica-da-aia/index.html" class="no-external">
-<div class="listing-date">
-Nov 13, 2024
-</div>
-<div class="listing-author">
-DamDan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="mensagem,codigo,analise" data-listing-date-sort="1731466800000" data-listing-file-modified-sort="1731476432457" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="246">
-<div class="thumbnail">
-<p><a href="./posts/incompletude/index.html" class="no-external"></a></p><a href="./posts/incompletude/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/incompletude/licaoTrico.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/incompletude/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/incompletude/index.html" class="no-external">Incompletude</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/incompletude/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('mensagem'); return false;">
-mensagem
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('codigo'); return false;">
-codigo
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analise'); return false;">
-analise
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/incompletude/index.html" class="no-external">Quais as implicações dos teoremas de incompletude de Gödel sobre a estatística?</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/incompletude/index.html" class="no-external">
-<div class="listing-date">
-Nov 13, 2024
-</div>
-<div class="listing-author">
-DamDan
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

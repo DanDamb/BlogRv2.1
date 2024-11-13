@@ -13,3 +13,39 @@ x <- seq(-2 * pi, 2* pi, 0.1)
 y <- log(x * x) * sin(x)
 plot(x, y, "l", col = "red")
 ```
+
+
+```{R}
+mapaLogistico <- function(x, r = 4) {
+  r * x * (1 - x)
+}
+
+geraSequencia <- function(semente = 0.8, n = 100, r = 4) {
+  # Inicializa um vetor para armazenar a sequência
+  sequencia <- numeric(n)
+  # Define o valor inicial
+  x <- semente
+
+# Gera a sequência
+for (i in 1:n) {
+  x <- mapaLogistico(x, r)
+  sequencia[i] <- x
+}
+
+return(sequencia)
+}
+
+# Gera 100 números aleatórios do mapa logístico
+numerosPseudoaeatorios <- geraSequencia(n = 100)
+
+# Imprime os primeiros números
+print(head(numerosPseudoaeatorios))
+
+# Plota a sequência
+plot(numerosPseudoaeatorios, type = "l", main = "Números pseudo-aleatórios do mapa logístico")
+```
+
+
+# Referências
+[teste de aleatoriedade](https://www.researchgate.net/publication/235090427_A_Statistical_Test_Suite_for_Random_and_Pseudorandom_Number_Generators_for_Cryptographic_Applications): artigo A Statistical Test Suite for Random and Pseudorandom Number Generators for Cryptographic Applications. Acessado em 13/11/2024.
+[Pseudorandom number generator](https://en.wikipedia.org/wiki/Pseudorandom_number_generator): artigo da Wikipedia. Acessado em 13/11/2024.
