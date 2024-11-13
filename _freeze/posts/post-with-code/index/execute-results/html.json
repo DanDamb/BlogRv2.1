@@ -1,9 +1,11 @@
 {
-  "hash": "c044a7b1962cfce035320d03f29f5528",
+  "hash": "61c52bca354dd52fabf4b033730ef448",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Post With Code\"\nauthor: \"Harlow Malloc\"\ndate: \"2024-11-12\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\n\n\n\n\nThis is a post with executable code.\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
-    "supporting": [],
+    "markdown": "---\ntitle: \"Postagem com significado\"\nauthor: \"DamDan\"\ndate: \"2024-11-13\"\ncategories: [mensagem, codigo, analise]\nimage: \"homenEnxada.png\"\n---\n\n\n\nEste é um índice do que vem por aqui.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nx <- seq(-2 * pi, 2* pi, 0.1)\ny <- log(x * x) * sin(x)\nplot(x, y, \"l\", col = \"red\")\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
