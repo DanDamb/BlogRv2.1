@@ -1,0 +1,63 @@
+---
+title: "Incompletude"
+author: "DamDan"
+date: "2024-11-13"
+categories: [mensagem, codigo, analise]
+image: "licaoTrico.png"
+---
+
+# A questão
+Quais as implicações dos teoremas de incompletude de Gödel sobre a estatística?
+
+## Os fundamentos
+Sempre haverá verdades que escapam à demonstração formal.
+Assim, a estatística, que se baseia na matemática, pode conter contradições internas que não podemos detectar.
+Por mais sofisticados que sejam os modelos estatísticos, sempre serão incompletos e podem conter verdades não demonstráveis.
+
+## As implicações
+A incompletude, inerente aos sistemas formais, coloca em questão a possibilidade de uma interpretação definitiva e absoluta dos resultados estatísticos.
+
+Um trabalhador da estatística deve estrar ciente das limitações dos modelos e métodos, e lidar com a incerteza inerente ao processo de inferência.
+
+## A demonstração
+
+### Preliminares:
+
+T: um sistema formal consistente que inclui a aritmética de Peano.
+⊢: símbolo que denota "é demonstrável em T".
+G: a sentença de Gödel para o sistema T, que afirma "G não é demonstrável em T".
+
+### Primeiro Teorema da Incompletude:
+
+Se T é consistente, então:
+
+T ⊬ G (G não é demonstrável em T)
+T ⊬ ¬G (a negação de G também não é demonstrável em T)
+Em outras palavras, G é uma fórmula indecidível em T.
+
+### Segundo Teorema da Incompletude:
+
+Se T é consistente, então:
+
+T ⊬ Cons(T)
+Onde Cons(T) é uma fórmula que expressa a consistência de T, como por exemplo: ¬⊢ (0 = 1). Isso significa que T não pode provar a sua própria consistência.
+
+
+$$
+\text{Prov}(x, y) \iff \exists p (\text{Prova}(p) \land \text{Gödel}(x) \land \text{Conclusão}(p, x) \land y = \text{NumGödel}(p))
+$$
+
+$$
+G \iff \forall y ¬\text{Prov}(\⌜G⌝, y)
+$$
+## Para terminar
+$$  (∀x. R(x,x)) → (∀x∃y. R(x,y)) $$
+# Referências:
+
+[Analise ecologica](https://analises-ecologicas.com/): livro Análises Ecológicas no R.
+
+```{r}
+x <- seq(-2 * pi, 2* pi, 0.1)
+y <- log(x * x) * sin(x)
+plot(x, y, "l", col = "red")
+```

@@ -1,12 +1,14 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2024-11-09"
-categories: [news]
+title: "Plantando batatas"
+author: "DamDan"
+date: "2024-11-13"
+categories: [metacategoricas]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+Salve! Este é o promeiro blog... de que lembro ter escrito!
 
-![](thumbnail.jpg)
+![Os plantadores de batatas de Jean François Millet](thumbnail.jpg)
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+(recorte d'Os plantadores de batatas de Jean François Millet)
+
+A referência para a construção dos textos são as `images` que produzidas por Jean François Millet, que dizia não querer politizar.

@@ -1,13 +1,15 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
-date: "2024-11-12"
-categories: [news, code, analysis]
-image: "image.jpg"
+title: "Postagem com significado"
+author: "DamDan"
+date: "2024-11-13"
+categories: [mensagem, codigo, analise]
+image: "homenEnxada.png"
 ---
 
-This is a post with executable code.
+Este é um indice do que vem por aqui.
 
 ```{r}
-1 + 1
+x <- seq(-2 * pi, 2* pi, 0.1)
+y <- log(x * x) * sin(x)
+plot(x, y, "l", col = "red")
 ```

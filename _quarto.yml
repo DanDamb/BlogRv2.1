@@ -15,7 +15,9 @@ format:
     theme: darkly
     css: styles.css
 
-editor: visual
 comments:
   giscus:
     repo: DanDamb/BlogRv2.1
+
+editor: visual
+
