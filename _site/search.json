@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nNov 12, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nNov 9, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Plantando batatas\n\n\n\n\n\n\nmetacategoricas\n\n\n\n\n\n\n\n\n\nNov 13, 2024\n\n\nDamDan\n\n\n\n\n\n\n\n\n\n\n\n\nPostagem com significado\n\n\n\n\n\n\nmensagem\n\n\ncodigo\n\n\nanalise\n\n\n\n\n\n\n\n\n\nNov 13, 2024\n\n\nDamDan\n\n\n\n\n\n\n\n\n\n\n\n\nIncompletude\n\n\n\n\n\n\nmensagem\n\n\ncodigo\n\n\nanalise\n\n\n\n\n\n\n\n\n\nNov 13, 2024\n\n\nDamDan\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "Plantando batatas",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Salve! Este é o promeiro blog… de que lembro ter escrito!\n\n\n\nOs plantadores de batatas de Jean François Millet\n\n\n(recorte d’Os plantadores de batatas de Jean François Millet)\nA referência para a construção dos textos são as images que produzidas por Jean François Millet, que dizia não querer politizar."
   },
   {
     "objectID": "about.html",
@@ -33,5 +33,33 @@
     "title": "BlogRv2.1",
     "section": "Referências",
     "text": "Referências\nBlog BeaMilz: Um blog com Quarto."
+  },
+  {
+    "objectID": "posts/incompletude/index.html",
+    "href": "posts/incompletude/index.html",
+    "title": "Incompletude",
+    "section": "",
+    "text": "Quais as implicações dos teoremas de incompletude de Gödel sobre a estatística?\n\n\nSempre haverá verdades que escapam à demonstração formal. Assim, a estatística, que se baseia na matemática, pode conter contradições internas que não podemos detectar. Por mais sofisticados que sejam os modelos estatísticos, sempre serão incompletos e podem conter verdades não demonstráveis.\n\n\n\nA incompletude, inerente aos sistemas formais, coloca em questão a possibilidade de uma interpretação definitiva e absoluta dos resultados estatísticos.\nUm trabalhador da estatística deve estrar ciente das limitações dos modelos e métodos, e lidar com a incerteza inerente ao processo de inferência.\n\n\n\n\n\nT: um sistema formal consistente que inclui a aritmética de Peano. ⊢: símbolo que denota “é demonstrável em T”. G: a sentença de Gödel para o sistema T, que afirma “G não é demonstrável em T”.\n\n\n\nSe T é consistente, então:\nT ⊬ G (G não é demonstrável em T) T ⊬ ¬G (a negação de G também não é demonstrável em T) Em outras palavras, G é uma fórmula indecidível em T.\n\n\n\nSe T é consistente, então:\nT ⊬ Cons(T) Onde Cons(T) é uma fórmula que expressa a consistência de T, como por exemplo: ¬⊢ (0 = 1). Isso significa que T não pode provar a sua própria consistência.\n\\[\n\\text{Prov}(x, y) \\iff \\exists p (\\text{Prova}(p) \\land \\text{Gödel}(x) \\land \\text{Conclusão}(p, x) \\land y = \\text{NumGödel}(p))\n\\]\n\\[\nG \\iff \\forall y ¬\\text{Prov}(\\⌜G⌝, y)\n\\] ## Para terminar \\[  (∀x. R(x,x)) → (∀x∃y. R(x,y)) \\] # Referências:\nAnalise ecologica: livro Análises Ecológicas no R. Analise ambiental: Análise de Dados Ambientais.\n\nx &lt;- seq(-2 * pi, 2* pi, 0.1)\ny &lt;- log(x * x) * sin(x)\nplot(x, y, \"l\", col = \"red\")"
+  },
+  {
+    "objectID": "posts/incompletude/index.html#os-fundamentos",
+    "href": "posts/incompletude/index.html#os-fundamentos",
+    "title": "Incompletude",
+    "section": "",
+    "text": "Sempre haverá verdades que escapam à demonstração formal. Assim, a estatística, que se baseia na matemática, pode conter contradições internas que não podemos detectar. Por mais sofisticados que sejam os modelos estatísticos, sempre serão incompletos e podem conter verdades não demonstráveis."
+  },
+  {
+    "objectID": "posts/incompletude/index.html#as-implicações",
+    "href": "posts/incompletude/index.html#as-implicações",
+    "title": "Incompletude",
+    "section": "",
+    "text": "A incompletude, inerente aos sistemas formais, coloca em questão a possibilidade de uma interpretação definitiva e absoluta dos resultados estatísticos.\nUm trabalhador da estatística deve estrar ciente das limitações dos modelos e métodos, e lidar com a incerteza inerente ao processo de inferência."
+  },
+  {
+    "objectID": "posts/incompletude/index.html#a-demonstração",
+    "href": "posts/incompletude/index.html#a-demonstração",
+    "title": "Incompletude",
+    "section": "",
+    "text": "T: um sistema formal consistente que inclui a aritmética de Peano. ⊢: símbolo que denota “é demonstrável em T”. G: a sentença de Gödel para o sistema T, que afirma “G não é demonstrável em T”.\n\n\n\nSe T é consistente, então:\nT ⊬ G (G não é demonstrável em T) T ⊬ ¬G (a negação de G também não é demonstrável em T) Em outras palavras, G é uma fórmula indecidível em T.\n\n\n\nSe T é consistente, então:\nT ⊬ Cons(T) Onde Cons(T) é uma fórmula que expressa a consistência de T, como por exemplo: ¬⊢ (0 = 1). Isso significa que T não pode provar a sua própria consistência.\n\\[\n\\text{Prov}(x, y) \\iff \\exists p (\\text{Prova}(p) \\land \\text{Gödel}(x) \\land \\text{Conclusão}(p, x) \\land y = \\text{NumGödel}(p))\n\\]\n\\[\nG \\iff \\forall y ¬\\text{Prov}(\\⌜G⌝, y)\n\\] ## Para terminar \\[  (∀x. R(x,x)) → (∀x∃y. R(x,y)) \\] # Referências:\nAnalise ecologica: livro Análises Ecológicas no R. Analise ambiental: Análise de Dados Ambientais.\n\nx &lt;- seq(-2 * pi, 2* pi, 0.1)\ny &lt;- log(x * x) * sin(x)\nplot(x, y, \"l\", col = \"red\")"
   }
 ]

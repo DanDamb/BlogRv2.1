@@ -9,7 +9,7 @@
 <meta name="author" content="DamDan">
 <meta name="dcterms.date" content="2024-11-13">
 
-<title>Plantando batatas – L’homme à la houe</title>
+<title>Incompletude – L’homme à la houe</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -69,6 +103,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -115,9 +178,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Plantando batatas</h1>
+      <h1 class="title">Incompletude</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">metacategoricas</div>
+                <div class="quarto-category">mensagem</div>
+                <div class="quarto-category">codigo</div>
+                <div class="quarto-category">analise</div>
               </div>
                   </div>
   </div>
@@ -154,17 +219,57 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Salve! Este é o promeiro blog… de que lembro ter escrito!</p>
-<div class="quarto-figure quarto-figure-center">
+<section id="a-questão" class="level1">
+<h1>A questão</h1>
+<p>Quais as implicações dos teoremas de incompletude de Gödel sobre a estatística?</p>
+<section id="os-fundamentos" class="level2">
+<h2 class="anchored" data-anchor-id="os-fundamentos">Os fundamentos</h2>
+<p>Sempre haverá verdades que escapam à demonstração formal. Assim, a estatística, que se baseia na matemática, pode conter contradições internas que não podemos detectar. Por mais sofisticados que sejam os modelos estatísticos, sempre serão incompletos e podem conter verdades não demonstráveis.</p>
+</section>
+<section id="as-implicações" class="level2">
+<h2 class="anchored" data-anchor-id="as-implicações">As implicações</h2>
+<p>A incompletude, inerente aos sistemas formais, coloca em questão a possibilidade de uma interpretação definitiva e absoluta dos resultados estatísticos.</p>
+<p>Um trabalhador da estatística deve estrar ciente das limitações dos modelos e métodos, e lidar com a incerteza inerente ao processo de inferência.</p>
+</section>
+<section id="a-demonstração" class="level2">
+<h2 class="anchored" data-anchor-id="a-demonstração">A demonstração</h2>
+<section id="preliminares" class="level3">
+<h3 class="anchored" data-anchor-id="preliminares">Preliminares:</h3>
+<p>T: um sistema formal consistente que inclui a aritmética de Peano. ⊢: símbolo que denota “é demonstrável em T”. G: a sentença de Gödel para o sistema T, que afirma “G não é demonstrável em T”.</p>
+</section>
+<section id="primeiro-teorema-da-incompletude" class="level3">
+<h3 class="anchored" data-anchor-id="primeiro-teorema-da-incompletude">Primeiro Teorema da Incompletude:</h3>
+<p>Se T é consistente, então:</p>
+<p>T ⊬ G (G não é demonstrável em T) T ⊬ ¬G (a negação de G também não é demonstrável em T) Em outras palavras, G é uma fórmula indecidível em T.</p>
+</section>
+<section id="segundo-teorema-da-incompletude" class="level3">
+<h3 class="anchored" data-anchor-id="segundo-teorema-da-incompletude">Segundo Teorema da Incompletude:</h3>
+<p>Se T é consistente, então:</p>
+<p>T ⊬ Cons(T) Onde Cons(T) é uma fórmula que expressa a consistência de T, como por exemplo: ¬⊢ (0 = 1). Isso significa que T não pode provar a sua própria consistência.</p>
+<p><span class="math display">\[
+\text{Prov}(x, y) \iff \exists p (\text{Prova}(p) \land \text{Gödel}(x) \land \text{Conclusão}(p, x) \land y = \text{NumGödel}(p))
+\]</span></p>
+<p><span class="math display">\[
+G \iff \forall y ¬\text{Prov}(\⌜G⌝, y)
+\]</span> ## Para terminar <span class="math display">\[  (∀x. R(x,x)) → (∀x∃y. R(x,y)) \]</span> # Referências:</p>
+<p><a href="https://analises-ecologicas.com/">Analise ecologica</a>: livro Análises Ecológicas no R. <a href="https://lhmet.github.io/adar-ebook/">Analise ambiental</a>: Análise de Dados Ambientais.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="sc">-</span><span class="dv">2</span> <span class="sc">*</span> pi, <span class="dv">2</span><span class="sc">*</span> pi, <span class="fl">0.1</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">log</span>(x <span class="sc">*</span> x) <span class="sc">*</span> <span class="fu">sin</span>(x)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(x, y, <span class="st">"l"</span>, <span class="at">col =</span> <span class="st">"red"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
 <figure class="figure">
-<p><img src="thumbnail.jpg" class="img-fluid figure-img"></p>
-<figcaption>Os plantadores de batatas de Jean François Millet</figcaption>
+<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
-<p>(recorte d’Os plantadores de batatas de Jean François Millet)</p>
-<p>A referência para a construção dos textos são as <code>images</code> que produzidas por Jean François Millet, que dizia não querer politizar.</p>
+</div>
+</div>
 
 
+</section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

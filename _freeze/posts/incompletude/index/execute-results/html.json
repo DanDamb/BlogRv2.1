@@ -1,0 +1,17 @@
+{
+  "hash": "510b95f42b4d2878724358c4a0da3b10",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Incompletude\"\nauthor: \"DamDan\"\ndate: \"2024-11-13\"\ncategories: [mensagem, codigo, analise]\nimage: \"licaoTrico.png\"\n---\n\n\n\n# A questão\nQuais as implicações dos teoremas de incompletude de Gödel sobre a estatística?\n\n## Os fundamentos\nSempre haverá verdades que escapam à demonstração formal.\nAssim, a estatística, que se baseia na matemática, pode conter contradições internas que não podemos detectar.\nPor mais sofisticados que sejam os modelos estatísticos, sempre serão incompletos e podem conter verdades não demonstráveis.\n\n## As implicações\nA incompletude, inerente aos sistemas formais, coloca em questão a possibilidade de uma interpretação definitiva e absoluta dos resultados estatísticos.\n\nUm trabalhador da estatística deve estrar ciente das limitações dos modelos e métodos, e lidar com a incerteza inerente ao processo de inferência.\n\n## A demonstração\n\n### Preliminares:\n\nT: um sistema formal consistente que inclui a aritmética de Peano.\n⊢: símbolo que denota \"é demonstrável em T\".\nG: a sentença de Gödel para o sistema T, que afirma \"G não é demonstrável em T\".\n\n### Primeiro Teorema da Incompletude:\n\nSe T é consistente, então:\n\nT ⊬ G (G não é demonstrável em T)\nT ⊬ ¬G (a negação de G também não é demonstrável em T)\nEm outras palavras, G é uma fórmula indecidível em T.\n\n### Segundo Teorema da Incompletude:\n\nSe T é consistente, então:\n\nT ⊬ Cons(T)\nOnde Cons(T) é uma fórmula que expressa a consistência de T, como por exemplo: ¬⊢ (0 = 1). Isso significa que T não pode provar a sua própria consistência.\n\n\n$$\n\\text{Prov}(x, y) \\iff \\exists p (\\text{Prova}(p) \\land \\text{Gödel}(x) \\land \\text{Conclusão}(p, x) \\land y = \\text{NumGödel}(p))\n$$\n\n$$\nG \\iff \\forall y ¬\\text{Prov}(\\⌜G⌝, y)\n$$\n## Para terminar\n$$  (∀x. R(x,x)) → (∀x∃y. R(x,y)) $$\n# Referências:\n\n[Analise ecologica](https://analises-ecologicas.com/): livro Análises Ecológicas no R.\n[Analise ambiental](https://lhmet.github.io/adar-ebook/): Análise de Dados Ambientais.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nx <- seq(-2 * pi, 2* pi, 0.1)\ny <- log(x * x) * sin(x)\nplot(x, y, \"l\", col = \"red\")\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
