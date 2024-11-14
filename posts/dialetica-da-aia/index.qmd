@@ -10,7 +10,7 @@ image: "osLenhadoresJPM.png"
 
 A Avaliação de Impactos Ambientais (AIA) é dialética desde sua origem na política nacional de meio ambiente do Brasil. O caráter dialético da AIA está tanto no arcabouço legal quanto na sua materialização administrativa e nas soluções jurídicas dos impasses que surgem das contradições e lacunas do ordenamento ambiental no Brasil. 
 
-## Os sugeitos
+## Os sujeitos
 
 A AIA é usualmente chamada de dentro do processo de licenciamento ambiental, no aberto confronto de interesses, sejam eles particulares ou coletivos, mas sempre no embate de ao menos dois sujeitos de direito. O direito ao meio ambiente ecologicamente equilibrado (Art. 225 da CF) e o direito ao livre exercício de qualquer atividade econômica, independentemente de autorização de órgãos públicos (Art. 170 da CF), já trazem à cena o embate, explícito na  ressalva dada pelo inciso VI do mesmo artigo: "defesa do meio ambiente, inclusive mediante tratamento diferenciado conforme o impacto ambiental dos produtos e serviços e de seus processos de elaboração e prestação".
 
