@@ -7,10 +7,12 @@ image: "osLenhadoresJPM.png"
 ---
 
 # A origem
+
 A Avaliação de Impactos Ambientais (AIA) é dialética desde sua origem na política nacional de meio ambiente do Brasil. O caráter dialético da AIA está tanto no arcabouço legal quanto na sua materialização administrativa e nas soluções jurídicas dos impasses que surgem das contradições e lacunas do ordenamento ambiental no Brasil. 
 
 ## Os sugeitos
-A AIA é usualmente chamada de dentro do processo de licenciamento ambiental, no aberto confronto de interesses, sejam eles particulares ou coletivos, mas sempre no embate de ao menos dois sujeitos de direito. O direito ao meio ambiente ecologicamente equilibrado (Art. 225 da CF) e o direito ao livre exercício de qualquer atividade econômica, independentemente de autorização de órgãos públicos (Art. 170 da CF), já trazem à cena o embate, explícito na  resalva dada pelo inciso VI do mesmo artigo: "defesa do meio ambiente, inclusive mediante tratamento diferenciado conforme o impacto ambiental dos produtos e serviços e de seus processos de elaboração e prestação".
+
+A AIA é usualmente chamada de dentro do processo de licenciamento ambiental, no aberto confronto de interesses, sejam eles particulares ou coletivos, mas sempre no embate de ao menos dois sujeitos de direito. O direito ao meio ambiente ecologicamente equilibrado (Art. 225 da CF) e o direito ao livre exercício de qualquer atividade econômica, independentemente de autorização de órgãos públicos (Art. 170 da CF), já trazem à cena o embate, explícito na  ressalva dada pelo inciso VI do mesmo artigo: "defesa do meio ambiente, inclusive mediante tratamento diferenciado conforme o impacto ambiental dos produtos e serviços e de seus processos de elaboração e prestação".
 
 ## Os princípios
 O debate e o confronto de idéias entre interlocutores, comprometidos com a busca da verdade, seria o caminho mais racional para a compreensão[1](https://pt.wikipedia.org/wiki/Dial%C3%A9tica#CITEREFFoulqui%C3%A91978). Platão considera que apenas através do diálogo o filósofo deve procurar atingir o verdadeiro conhecimento, partindo do mundo sensível e chegando ao mundo das ideias[2](https://pt.wikipedia.org/wiki/Dial%C3%A9tica#CITEREFFoulqui%C3%A91978). A tradução literal de dialética significa "caminho entre as ideias".[nota](https://pt.wikipedia.org/wiki/Dial%C3%A9tica#CITEREFKonder1987).
@@ -28,7 +30,7 @@ Contudo, a premissa de que os interlocutores devem estar comprometidos com a bus
 ...
 # Referências:
 
- [Lógica dialética de Spinoza a Hegel](http://www.saspinski.com/filosofia/logicaDialetica.pdf): artigo em formato pdf, Claudio Saspinski. Acessado em 13/11/2024.
+ [Lógica dialética de Spinoza a Hegel](http://www.saspinski.com/filosofia/logicaDialetica.pdf): artigo em formato pdf, Cláudio Saspinski. Acessado em 13/11/2024.
  [A Dialética da Natureza](https://www.marxists.org/portugues/marx/1882/dialetica/index.htm): livro hipertexto, Friedrich Engels 1882. Acessado em 13/11/2024.
  [Constituição - Planalto](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): Constituição da República Federativa do Brasil de 1988. Acessado em 13/11/2024.
  [O método dialético materialista](https://livrepensamento.com/2013/10/21/o-metodo-dialetico-materialista/): artigo hipertexto, Maurício. Acessado em 13/11/2024.
